@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>OTENKIMUSIC</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CD6J5P8RXH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CD6J5P8RXH');
+</script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title"><a class="header__h1" href="index.html"> MASUDA MY PORTFOLIO</a></h1>
+        <ul class="header__gnav">
+            <li class="header__item"><a class="header__link" href="about.html"> ABOUT</a></li>
+            <li class="header__item"><a class="header__link" href="works.html">WORKS</a></li>
+        </ul>
+        
+        <div class="hanbager">
+            <div class="openbtn"><span></span><span></span><span></span></div>
+                <nav id="g-nav">
+                    <ul>
+                    <li class="g-nav__main"><a href="works.html">WORKS</a></li> 
+                    <li class="g-nav__main"><a href="about.html">ABOUT</a></li> 
+                    <li class="g-nav__link"><a href="blog.html">個人ブログ「多趣味な男のブログ」</a></li> 
+                    <li class="g-nav__link"><a href="cafe.html">進級制作展作品「奏カフェ」</a></li> 
+                    <li class="g-nav__link"><a href="slideshow.html">slideshow</a></li> 
+                    <li class="g-nav__link"><a href="purememo.html">思い出記録アプリ/ぷれめも</a></li> 
+                    <li class="g-nav__link"><a href="otenki.html">OTENKIMUSIC</a></li> 
+
+                    </ul>    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="main__title">OTENKIMUSIC</h2>
+        <div class="detail">
+            <img class="detail__img" src="./images/api__single.svg" alt="">
+            <a class="detail__link" href="https://kentalog.work/weatherapri/index.html">実際に作品を見る</a>
+            <table class="table">
+                <tr>
+                <th class="table__th">制作期間</th>
+                <td class="table__td">1ヶ月</td>
+                </tr>
+                <tr>
+                <th class="table__th">担当箇所</th>
+                <td class="table__td">デザイン、コーディング</td>
+                </tr>
+                <tr>
+                    <th class="table__th">制作人数</th>
+                    <td class="table__td">1人</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="table__td"><a class="table__link" href="https://github.com/kenta66448284/weatherapri.git"> コードはこちら</a></td>
+                </tr>
+            </table>
+            <h3 class="detail__subtitle detail__center">使用技術</h3>
+            <ul class="icon">
+                <li class="icon__html icon__box">html</li>
+                <li class="icon__js icon__box">javascript</li>
+                <li class="icon__vs icon__box">Visual Studio Code</li>
+            </ul>
+            <div class="detail__block">
+                <div class="detail__box">
+                    <h3 class="detail__subtitle detail__h3">作品概要</h3>
+                    <p class="detail__text">授業で作成した天気予報のAPIを使用したオリジナルのお天気アプリです。今回はYoutubeのAPIも利用して音楽が流れるようなアプリを作成しました。
+                        サイトに入るとランダムで天気に合わせて設定したリストからランダムに曲を流すようにし、天気に合わせて背景や文字の色を変えるようにしています。そして上の2つのボタンを押すとその時の気分によっておすすめの曲をリスト化し画面に表示するようにしています。
+
+                    </p>
+                </div>
+                <ol class="detail__box">
+                    <h3 class="detail__subtitle detail__h3">制作の流れ</h3>
+                    <li class="detail__list">APIの知識を学ぶ</p>
+                    <li class="detail__list">簡単なラフ図の作成</p>
+                    <li class="detail__list">コーディング作業、公開</p>
+                </ol>
+                <div class="detail__box">
+                    <h3 class="detail__subtitle detail__h3">大変だった点</h3>
+                    <h4 class="detail__subtitle detail__h4">どのようなお天気アプリを作るか</h4>
+                    <p class="detail__text">まず最初にお天気アプリを作る際に普通に天気を表示させるだけではつまらないと感じたのでなにかいい案がないかと考えるのが大変でした。
+                        そこで今回は私の大好きな音楽を使用して天気によって流す曲やおすすめする曲を変えるアプリを作ることにしました。
+                    </p>
+                    
+                    <h4 class="detail__subtitle detail__h4">youtubeAPIデータの取得</h4>
+                    <p class="detail__text">別の授業で習ったyoutubeAPIをうまく使用したいと思い調べていたけど中々うまく行かずに苦労しました。
+                        取得をした後もYouTube IFrame Player APIに上手くデータを持っていけなかったりして苦労しましたが、友人から助言をもらったりしてなんとか乗り切ることができました。
+
+                    </p>
+                    <p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="MWQqpOa" data-user="kenta66448284" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/kenta66448284/pen/MWQqpOa">
+                        Untitled</a> by kenta66448284 (<a href="https://codepen.io/kenta66448284">@kenta66448284</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                    <p class="detail__text">このお天気アプリ制作で特に工夫した点は質問ボタンを押した後の見せ方です。本来ならボタンを押した後に表示されるリンクはそのままouTube IFrame 
+                        に入れても良かったのですが再生されない動画も多くそこが嫌だったのでsetattributeを使用してリンクを貼るようにしてそのままYouTubeの方に飛ぶようにしました。
+                    </p>
+                    <h3 class="detail__subtitle detail__h3">作品を通して</h3>
+                        <p class="detail__text">初めてJavaScriptを使用してアプリを作成したけど自分の知らないこと、わからないことが多くもっと勉強していく必要があるなと感じました。
+                            今回なんとか完成させることができましたが、関数の仕様や引数の使用でもっとわかりやすく見やすいコードになると思うのでこれからも自主的に作品制作やAPIについて学んでいきたいと思います。
+                        </p>
+                </div>
+            </div>
+            <a class="detail__link" href="https://kentalog.work/weatherapri/index.html">実際に作品を見る</a>
+        </div>
+    </main>
+    <footer class="fotter">
+        <small class="fotter__copy">©kenta2022_portfolio</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./portfolio.js"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>
