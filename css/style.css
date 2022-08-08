@@ -205,7 +205,6 @@ img {
   display: block;
   width: 46%;
   margin-right: 8%;
-  overflow: hidden;
   cursor: pointer;
 }
 .works__item:nth-child(2n) {
@@ -217,7 +216,8 @@ img {
   transition-duration: 0.5s;
 }
 .works__img:hover {
-  transform: scale(1.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
   transition-duration: 0.5s;
 }
 .works__title {

@@ -213,7 +213,6 @@ img{
         width: 46%;
         // margin: 0 auto;
         margin-right: 8%;
-        overflow: hidden;
         cursor: pointer;
         
     }
@@ -226,7 +225,8 @@ img{
         transition-duration: 0.5s;
     }
     &__img:hover{
-        transform: scale(1.2);
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        transform: translateY(-10px);
         transition-duration: 0.5s;
     }
     &__title{
